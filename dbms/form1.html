@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ORDER</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" type = "text/css" href="form1.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body >
+
+<div class="container">
+  <h3>Customer Details</h3>
+  <form class="form-horizontal" action="action_page.php" method="post">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Name">NAME:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="add">Address:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="add" placeholder="Enter Address" name="add">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="cnt">Contact:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="cnt" placeholder="Enter Contact" name="cnt">
+      </div>
+    </div>
+
+    <h3>Enter order details </h3>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="PIZZA">Pizza:</label>
+      <div class="col-sm-5">
+        <input type="number" class="form-control" id="qty1" placeholder="Enter Quantity" name="qty1">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="PASTA">Pasta:</label>
+      <div class="col-sm-5">
+        <input type="number" class="form-control" id="qty2" placeholder="Enter Quantity" name="qty2">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Spagetti">Spagetti:</label>
+      <div class="col-sm-5">
+        <input type="number" class="form-control" id="qty3" placeholder="Enter Quantity" name="qty3">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Tortilla">Tortilla:</label>
+      <div class="col-sm-5">
+        <input type="number" class="form-control" id="qty4" placeholder="Enter Quantity" name="qty4">
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit
+        " class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
